@@ -1,0 +1,40 @@
+problem,possible_cause,solution_step_1,solution_step_2,solution_step_3
+High coolant temperature,Low coolant or clogged heat exchanger,Check coolant level,Flush coolant system,Clean/replace heat exchanger
+Low oil pressure,Oil leak or worn-out oil pump,Check oil level,Inspect for leaks,Test oil pump
+Engine overheating,Failed thermostat or blocked cooling passage,Check thermostat,Flush cooling system,Replace thermostat
+Excessive smoke from exhaust,Poor combustion or worn injectors,Check air intake,Clean injectors,Test fuel quality
+Knocking noise in engine,Low-octane fuel or detonation,Check fuel rating,Inspect spark timing,Use octane booster
+Loss of power,Clogged fuel filter or turbo failure,Replace fuel filter,Inspect turbo,Check boost pressure
+Slow acceleration,Throttle linkage or sensor issue,Check throttle cable,Test throttle sensor,Recalibrate ECU
+Hard starting,Weak battery or air in fuel lines,Check battery voltage,Bleed fuel lines,Inspect glow plugs
+Engine stall at idle,Vacuum leak or dirty IAC valve,Inspect vacuum lines,Clean IAC valve,Check idle RPM
+Black exhaust smoke,Rich fuel mixture or dirty air filter,Replace air filter,Check fuel injectors,Adjust fuel mix
+Battery not charging,Faulty alternator or belt slip,Check alternator output,Inspect drive belt,Replace alternator
+Battery voltage drop,Parasitic draw or sulfated battery,Test battery health,Check for parasitic drain,Replace battery
+Alternator overheating,Overload or failed bearing,Reduce electrical load,Inspect alternator fan,Replace alternator
+Flickering lights,Loose ground or corroded connectors,Tighten connections,Clean contacts,Replace faulty wire
+No power to electronics,Blown fuse or open circuit,Check fuse box,Trace wiring,Repair damaged cables
+Navigation failure,GPS antenna fault or software glitch,Check antenna,Reboot nav system,Update firmware
+Autopilot not responding,Hydraulic fault or sensor error,Check fluid levels,Inspect hydraulic pump,Recalibrate autopilot
+Radar malfunction,Damaged antenna or interference,Inspect radar dome,Check signal cable,Reduce interference
+Compass deviation,Nearby magnetic source,Relocate metal objects,Recalibrate compass,Test fluxgate sensor
+Propeller vibration,Bent blade or debris on shaft,Inspect propeller,Remove debris,Replace damaged blade
+Excessive shaft noise,Worn bearings or misalignment,Check shaft alignment,Inspect cutlass bearing,Replace bearing
+Steering stiffness,Low hydraulic fluid or blockage,Check fluid level,Bleed air from system,Inspect steering ram
+Rudder not turning,Disconnected linkage or stuck actuator,Inspect linkage,Check actuator motor,Lubricate moving parts
+Water in bilge,Leak in hull or faulty pump,Check hull for cracks,Test bilge pump,Seal leaks
+Bilge pump not working,Float switch failure or power loss,Inspect float switch,Check fuse and wiring,Replace pump
+Strange hull noise,Wave slap or structural issue,Check hull structure,Add padding to supports,Reinforce frame
+Hull vibration,Loose fittings or imbalance,Tighten mounts,Check balance,Inspect attachments
+Fuel leak,Loose fitting or cracked hose,Inspect all connections,Tighten clamps,Replace damaged hose
+Fuel smell in cabin,Vent leak or spill,Inspect fuel tank vent,Clean spill,Seal leak source
+Clogged fuel filter,Dirty fuel or algae,Replace fuel filter,Flush fuel lines,Use biocide
+Excessive fuel use,Inefficient engine or poor trim,Adjust trim,Inspect injectors,Tune engine
+Anchor not deploying,Motor jammed or corroded chain,Inspect windlass,Clean chain,Test motor power
+Winch not working,Electrical fault or overload,Check breaker,Test switch,Inspect motor
+Windshield wiper failure,Blown fuse or broken arm,Replace fuse,Inspect motor,Change wiper arm
+Cabin fan not running,Power failure or motor jam,Check switch,Inspect motor,Replace capacitor
+Horn not working,Disconnected wire or bad switch,Check horn wiring,Test horn relay,Replace switch
+Fire alarm false trigger,Sensor contamination,Clean sensor,Reset alarm,Replace if needed
+Smoke in engine bay,Oil spill or wire short,Inspect for oil residue,Check wires,Shut engine and ventilate
+Liferaft not deploying,Improper storage or jam,Check securing straps,Lubricate mechanisms,Test release system
