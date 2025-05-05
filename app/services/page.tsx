@@ -95,8 +95,8 @@ const features = [
 ]
 
 const stats = [
-  { value: "15+", label: "Years Experience" },
-  { value: "500+", label: "Vessels Serviced" },
+  { value: "1+", label: "Years Experience" },
+  { value: "2+", label: "Vessels Serviced" },
   { value: "24/7", label: "Support Available" },
   { value: "98%", label: "Client Satisfaction" },
 ]

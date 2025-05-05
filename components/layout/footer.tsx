@@ -112,22 +112,22 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                <span className="text-muted-foreground">123 Harbor Drive, Port City, PC 12345</span>
+                <span className="text-muted-foreground">Elgouna, Hurghada City, Red Sea</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-muted-foreground">+1 (555) 123-4567</span>
+                <span className="text-muted-foreground">+201121224328</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-muted-foreground">info@marinetech.com</span>
+                <span className="text-muted-foreground">alabsyabdelrhman@gmail.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} MarineTech. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} 3absy & ICONK. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
