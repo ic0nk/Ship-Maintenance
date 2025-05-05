@@ -45,7 +45,7 @@ export default function AboutPage() {
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">About MarineTech</h1>
             <p className="text-xl max-w-2xl text-white/90">
-              Leading the maritime industry with innovative maintenance solutions since 1998
+              Leading the maritime industry with innovative maintenance solutions since 2025
             </p>
           </motion.div>
         </div>
@@ -196,34 +196,34 @@ export default function AboutPage() {
           >
             {[
               {
-                name: "Captain James Wilson",
+                name: "Eng. Abdelrhman Ali",
                 role: "Founder & CEO",
-                bio: "With over 30 years of maritime experience, Capt. Wilson founded MarineTech to revolutionize ship maintenance.",
+                bio: "With over 1 years of maritime experience, Eng. Abdelrhman founded MarineTech to revolutionize ship maintenance.",
               },
               {
-                name: "Dr. Sarah Chen",
+                name: "Eng.Momen",
                 role: "Chief Technology Officer",
-                bio: "Dr. Chen leads our AI development team, creating cutting-edge diagnostic tools for maritime applications.",
+                bio: "Momen leads our AI development team, creating cutting-edge diagnostic tools for maritime applications.",
               },
               {
-                name: "Michael Rodriguez",
+                name: "Capt.Ali Mahmoud",
                 role: "Head of Operations",
-                bio: "Michael ensures our maintenance teams deliver exceptional service across global operations.",
+                bio: "Ali ensures our maintenance teams deliver exceptional service across every operations.",
               },
               {
-                name: "Emma Thompson",
+                name: "Ahmed Ahmed",
                 role: "Chief Engineer",
-                bio: "Emma brings 20 years of engineering expertise to oversee all technical aspects of our maintenance services.",
+                bio: "Ahmed brings 15 years of engineering expertise to oversee all technical aspects of our maintenance services.",
               },
               {
-                name: "Robert Nakamura",
+                name: "Waleed Tawfek",
                 role: "Client Relations Director",
-                bio: "Robert works closely with our clients to ensure their maintenance needs are met with precision.",
+                bio: "Waleed works closely with our clients to ensure their maintenance needs are met with precision.",
               },
               {
-                name: "Olivia Patel",
+                name: "Youssef Ragaee",
                 role: "Innovation Lead",
-                bio: "Olivia drives the development of new maintenance technologies and methodologies.",
+                bio: "Youssef drives the development of new maintenance technologies and methodologies.",
               },
             ].map((member, index) => (
               <motion.div key={index} variants={fadeIn} whileHover={{ y: -5, transition: { duration: 0.2 } }}>

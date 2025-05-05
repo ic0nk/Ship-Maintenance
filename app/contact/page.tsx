@@ -133,7 +133,7 @@ export default function ContactPage() {
                         <FormItem>
                           <FormLabel>Full Name</FormLabel>
                           <FormControl>
-                            <Input placeholder="John Doe" {...field} />
+                            <Input placeholder="Ali Mahmoud" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -147,7 +147,7 @@ export default function ContactPage() {
                         <FormItem>
                           <FormLabel>Email Address</FormLabel>
                           <FormControl>
-                            <Input placeholder="john@example.com" {...field} />
+                            <Input placeholder="Ali@example.com" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -163,7 +163,7 @@ export default function ContactPage() {
                         <FormItem>
                           <FormLabel>Phone Number</FormLabel>
                           <FormControl>
-                            <Input placeholder="+1 (555) 123-4567" {...field} />
+                            <Input placeholder="+20 1121224328" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -262,9 +262,9 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Our Location</h3>
-                      <p className="text-muted-foreground">123 Harbor Drive</p>
-                      <p className="text-muted-foreground">Port City, PC 12345</p>
-                      <p className="text-muted-foreground">United States</p>
+                      <p className="text-muted-foreground">Elgouna</p>
+                      <p className="text-muted-foreground">Hurghada City,  Redsea</p>
+                      <p className="text-muted-foreground">Egypt</p>
                     </div>
                   </div>
                 </CardContent>
@@ -278,9 +278,9 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Phone Numbers</h3>
-                      <p className="text-muted-foreground">Main Office: +1 (555) 123-4567</p>
-                      <p className="text-muted-foreground">Emergency: +1 (555) 987-6543</p>
-                      <p className="text-muted-foreground">International: +1 (555) 456-7890</p>
+                      <p className="text-muted-foreground">Main Office: +20 1099933098</p>
+                      <p className="text-muted-foreground">Emergency: +20 1121224328</p>
+                      <p className="text-muted-foreground">International: Soon</p>
                     </div>
                   </div>
                 </CardContent>
@@ -294,9 +294,9 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Email Addresses</h3>
-                      <p className="text-muted-foreground">General Inquiries: info@marinetech.com</p>
-                      <p className="text-muted-foreground">Support: support@marinetech.com</p>
-                      <p className="text-muted-foreground">Careers: careers@marinetech.com</p>
+                      <p className="text-muted-foreground">General Inquiries: abdelrhmanalabsy@gmail.com</p>
+                      <p className="text-muted-foreground">Support: abdelrhmanalabsy@gmail.com</p>
+                      <p className="text-muted-foreground">Careers: abdelrhmanalabsy@gmail.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -312,7 +312,7 @@ export default function ContactPage() {
                       <h3 className="font-medium mb-1">Business Hours</h3>
                       <p className="text-muted-foreground">Monday - Friday: 8:00 AM - 6:00 PM</p>
                       <p className="text-muted-foreground">Saturday: 9:00 AM - 2:00 PM</p>
-                      <p className="text-muted-foreground">Sunday: Closed</p>
+                      <p className="text-muted-foreground">Sunday: 9:00 AM - 2:00 PM</p>
                       <p className="text-muted-foreground mt-2 font-medium">24/7 Emergency Support Available</p>
                     </div>
                   </div>
@@ -324,7 +324,7 @@ export default function ContactPage() {
             <motion.div variants={fadeIn} className="rounded-lg overflow-hidden border h-[300px] relative">
               <div className="absolute inset-0 bg-muted flex items-center justify-center">
                 <p className="text-muted-foreground text-center px-4">
-                  Interactive map showing our location at 123 Harbor Drive, Port City
+                  Interactive map showing our location at Elgona, Hurghada City
                 </p>
               </div>
             </motion.div>
@@ -335,28 +335,28 @@ export default function ContactPage() {
       {/* Global Locations */}
       <section className="py-16 bg-muted/30">
         <div className="container">
-          <h2 className="text-2xl font-bold mb-8 text-center">Our Global Service Locations</h2>
+          <h2 className="text-2xl font-bold mb-8 text-center">Our Service Locations</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                location: "North America",
-                address: "123 Harbor Drive, Port City, PC 12345, USA",
-                phone: "+1 (555) 123-4567",
+                location: "Hurghada",
+                address: "Elgouna, Hurghada City, Redsea, Egypt",
+                phone: "+20 1121224328",
               },
               {
-                location: "Europe",
-                address: "45 Maritime Avenue, Rotterdam, 3001 AB, Netherlands",
-                phone: "+31 10 123 4567",
+                location: "Safaga",
+                address: "Online services , Emergency Support",
+                phone: "+20 1121224328",
               },
               {
-                location: "Asia Pacific",
-                address: "78 Ocean Road, Singapore, 123456",
-                phone: "+65 6123 4567",
+                location: "Elqusair",
+                address: "Online services , Emergency Support",
+                phone: "+20 1121224328",
               },
               {
-                location: "Middle East",
-                address: "90 Port Street, Dubai Maritime City, UAE",
-                phone: "+971 4 123 4567",
+                location: "suez",
+                address: "Online services , Emergency Support",
+                phone: "+20 1121224328",
               },
             ].map((office, index) => (
               <Card key={index} className="h-full">
@@ -371,5 +371,5 @@ export default function ContactPage() {
         </div>
       </section>
     </MainLayout>
-  )
+  )
 }
